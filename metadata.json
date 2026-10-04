@@ -1,0 +1,6 @@
+{
+  "name": "GitHub Flow Manager",
+  "description": "A full-stack GitHub Repository Manager allowing users to browse, create, edit, and upload files using GitHub OAuth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

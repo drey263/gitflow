@@ -1,11 +1,26 @@
-<div align="center">
+# GitHub Flow Manager
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A full-stack web application designed to manage GitHub repositories, edit files, and upload ZIP archives using GitHub's OAuth system and API.
 
-  <h1>Built with AI Studio</h2>
+## Project Setup
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+1. **Install Dependencies**:
+   \`\`\`bash
+   npm install
+   \`\`\`
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+2. **Run the Application**:
+   \`\`\`bash
+   npm run dev
+   \`\`\`
+   Navigate to \`http://localhost:3000\` to use your application.
 
-</div>
+3. **Authentication**:
+   - Go to your GitHub Settings -> Developer Settings -> Personal access tokens (Classic).
+   - Click "Generate new token (classic)".
+   - Select the \`repo\` scope to allow reading and writing repositories.
+   - Use the generated token to log into the application.
+
+## Technologies Used
+- Frontend: React 19, Tailwind CSS v4, vite, lucide-react 
+- Backend: Express, express-session, multer, adm-zip, axios
